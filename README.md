@@ -29,7 +29,7 @@ Os experimentos foram realizados usando o dataset Tic-Tac-Toe Endgame. O dataset
 #### Gráfico de Erros
 O gráfico a seguir mostra o erro médio e o desvio padrão para cada iteração. 
 
-<img src="./images/errors_plot.png" alt="Gráfico de erros" width="200"/>
+<img src="./images/errors_plot.png" alt="Gráfico de erros" width="600"/>
 
 Observações importantes:
 - Com poucas iterações, o erro é relativamente alto (~0.3).
@@ -40,7 +40,7 @@ Observações importantes:
 #### Gráfico de Tempo de Treinamento
 O gráfico a seguir mostra o tempo de treinamento para cada número de iterações. O tempo cresce linearmente com o número de iterações, indicando a importância de otimizar o número de estimadores para garantir eficiência computacional.
 
-<img src="./images/elapsed_time_plot.png" alt="Gráfico tempo de treinamento" width="200"/>
+<img src="./images/elapsed_time_plot.png" alt="Gráfico tempo de treinamento" width="600"/>
 
 ### Conclusão
 O Boosting é eficaz na redução do erro de classificação, especialmente com um número suficiente de estimadores. O modelo com 254 iterações foi escolhido como o melhor balanço entre erro e complexidade computacional, apresentando um erro de 0.0157 e uma acurácia de 0.984 no conjunto de teste.
