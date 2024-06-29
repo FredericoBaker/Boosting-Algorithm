@@ -18,7 +18,8 @@ Implementa um modelo fraco que percorre todas as features e thresholds para defi
 
 #### Classe AdaBoost
 Cria múltiplos decision stumps, um por iteração, e calcula o alpha, que indica a importância da previsão de um decision stump no modelo final. O alpha é calculado pela fórmula:
-![Fórmula Alpha](./images/formula_alpha.png)
+![Fórmula Alpha](./images/formula.png)
+<img src="./images/formula.png" alt="Fórmula Alpha" width="200"/>
 A classe escolhe o decision stump com menor erro, atualiza os pesos das observações e calcula o alpha para o modelo.
 
 ### Resultados
